@@ -11,6 +11,222 @@
 <br>
 <h2>HTML abbr Tag</h2>
 The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.<br>
-the <abbr title="Organización Mundial de la Salud">OMS</abbr>.
+the <abbr title="Organización Mundial de la Salud">OMS</abbr>
+
+<h2>HTML address Tag</h2>
+<address>
+  <strong>Twitter, Inc.</strong><br>
+  795 Folsom Ave, Suite 600<br>
+  San Francisco, CA 94107<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890 <br>
+    <a href="mailto:#">
+        <img src="https://cdn.worldvectorlogo.com/logos/gmail-icon.svg" alt="Gmail" width="20" height="20">
+    </a>
+    <a href="mailto:#">
+        <img src="https://cdn.worldvectorlogo.com/logos/outlook-icon.svg" alt="Outlook" width="20" height="20">
+    </a>
+    <a href="mailto:#">
+        <img src="https://cdn.worldvectorlogo.com/logos/yahoo-icon.svg" alt="Yahoo" width="20" height="20">
+    </a>
+    <a href="mailto:#">
+        <img src="https://cdn.worldvectorlogo.com/logos/hotmail-icon.svg" alt="Hotmail" width="20" height="20">
+    </a>
+</address>
+<h2>HTML area Tag</h2>
+<img src="https://cdn.worldvectorlogo.com/logos/gmail-icon.svg" alt="HTML 5" width="400" height="400" usemap="#map1">
+
+<map name="map1">
+  <area shape="rect" coords="0,0,200,200" href="https://www.w3schools.com/html/html_intro.asp" alt="HTML">
+  <area shape="rect" coords="200,0,400,200" href="https://www.w3schools.com/html/html_intro.asp" alt="HTML">
+</map>
+
+<article>
+  <h2>HTML article Tag</h2>
+  <p>The HTML article element represents a self-contained composition in a document, page, or application. The article element is a block-level element, like a paragraph. </p>
+</article>
+
+<aside>
+  <h2>HTML aside Tag</h2>
+  <p>The HTML aside element represents a section of a document that is not a paragraph, page, or application. The aside element is a block-level element, like a paragraph. </p>
+</aside>
+
+<h2>HTML audio Tag</h2>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<h2>HTML b Tag</h2>
+<p>The HTML b element represents a span of text to which some property has been applied. A b element typically has some weight, depending on the property applied. </p>
+<b>This is bold text</b>
+<p>This is <b>bold</b> text</p>
+
+<h2>HTML base Tag</h2>
+<base target="_blank"><!-- target="_blank" -->
+
+
+<h2>HTML bdi Tag</h2>
+<p>The HTML bdi element represents a span of text that is to be isolated from its surroundings for the purposes of bidirectional text formatting. </p>
+<bdi>This is text isolated for bidirectional text formatting</bdi>
+<p>This is <bdi>isolated</bdi> text</p>
+
+<h2>HTML bdo Tag</h2>
+<p>The HTML bdo element represents a span of text that is to be overridden by another span of text in order to work around either the Unicode bidirectional algorithm or the CSS direction property. </p>
+<bdo dir="ltr">This text is in the left-to-right direction</bdo>
+<p>This is <bdo dir="rtl">text in the right-to-left direction</bdo> </p>
+
+<h2>HTML blockquote Tag</h2>
+<blockquote>
+  <p>The HTML blockquote element is used to represent content that is quoted from another source. </p>
+</blockquote>
+
+
+<h2>HTML br Tag</h2>
+<p>The HTML br element represents a line break. </p>
+<p>The HTML br element is used to insert a line break.</p>
+
+
+<h2>HTML button Tag</h2>
+<button type="button">Click me</button>
+<button type="button" disabled>Click me</button>
+<button type="button" disabled="disabled">Click me</button>
+<button type="button" disabled="disabled" onclick="alert('Hello World!')">Click me</button>
+<button type="button" onclick="alert('Hello World!')">Click me</button>
+
+
+<h2>HTML canvas Tag</h2>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+  Your browser does not support the canvas element.
+</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World!",10,50);
+</script>
+
+
+<h2>HTML caption Tag</h2>
+<table>
+  <caption>This is a table caption</caption>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+
+<h2>HTML cite Tag</h2>
+<p>The HTML cite element represents a reference to a creative work. It must include the citation's title (or a subset of the title), author, publisher, and publication date. </p>
+<cite>This is a citation</cite>
+<p>This is <cite>a citation</cite> </p>
+
+
+<h2>HTML code Tag</h2>
+<p>The HTML code element represents a fragment of computer code. By default, it is displayed in the browser's default monospace font. </p>
+<code>This is a code fragment</code>
+<p>This is <code>a code fragment</code> </p>
+
+
+<h2>HTML col Tag</h2>
+<p>The HTML col element represents a column in an HTML table. It is used to create a column group where the columns can be further grouped if needed. </p>
+<table>
+  <colgroup>
+    <col span="2">
+    <col span="3">
+  </colgroup>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+
+<h2>HTML colgroup Tag</h2>
+<p>The HTML colgroup element represents a group of columns within a table. </p>
+<table>
+  <colgroup>
+    <col span="2">
+    <col span="3">
+  </colgroup>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+
+<h2>HTML command Tag</h2>
+<p>The HTML command element represents a command button. </p>
+<p>The HTML command element is used to define a command button. </p>
+
+
+<h2>HTML data Tag</h2>
+<p>The HTML data element represents a value in a table. </p>
+<p>The HTML data element is used to represent a value in a table. </p>
+
+
+<h2>HTML datalist Tag</h2>
+<p>The HTML datalist element represents a set of option elements that represent the values available for other controls. </p>
+<p>The HTML datalist element is used to define a list of options for other controls. </p>
+
+
+<h2>HTML dd Tag</h2>
+<p>The HTML dd element represents the description of a term in a description list. </p>
+<dl>
+  <dt>Definition list</dt>
+  <dd>A list of terms and their definitions.</dd>
+</dl>
+<dl>
+  <dt>Definition list</dt>
+  <dd>A list of terms and their definitions.</dd>
+</dl>
+<dl>
+  <dt>Definition list</dt>
+  <dd>A list of terms and their definitions.</dd>
+</dl>
+
+
+<h2>HTML del Tag</h2>
+<p>The HTML del element represents a range of text that has been deleted from a document. </p>
+<p>The HTML del element is used to represent a range of text that has been deleted from a document. </p>
+<p>This is <del>deleted</del> text</p>
+<p>This is <del>deleted</del> <del>text</del></p>
+
+
 </body>
 </html>
